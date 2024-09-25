@@ -1,9 +1,9 @@
 function editNav() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
+    var x = document.getElementById("myTopnav");// Récupère l'élément avec l'ID "myTopnav"
+    if (x.className === "topnav") { // Si la classe de l'élément est "topnav"
+      x.className += " responsive"; //Ajoute " responsive" à la classe (devient "topnav responsive")
     } else {
-      x.className = "topnav";
+      x.className = "topnav"; // Sinon, réinitialise la classe à "topnav"
     }
   }
   

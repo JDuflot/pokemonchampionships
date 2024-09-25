@@ -92,7 +92,9 @@
   } */
   
   @media screen and (max-width: 1024px) {
-    .topnav a {display: none;}
+    .topnav a {
+      display: none;
+    }
     .topnav a.icon {
       float: right;
       display: block;
@@ -103,7 +105,9 @@
       background: white;
     }
   
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {
+      position: relative;
+    }
     .topnav.responsive .icon {
       position: absolute;
       right: 0;
@@ -118,9 +122,8 @@
     }
   
     .header-logo img{
-      width: 123px;
-      position: absolute;
-      top: 18px;
+      position: relative;
+      left: 0;
     }
   }
   
